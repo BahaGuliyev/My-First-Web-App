@@ -1,0 +1,289 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 16px;
+    font-weight:100;
+    font-family: 'Open Sans', sans-serif;
+}
+.SehfeninBasi{
+    background:url(../images/home/showcase.jpg) no-repeat;
+    background-size:cover;
+    position:relative;
+    height:100vh;
+}
+.navbar {
+    height: 4.5rem;
+    width: 100%;
+    background-color: #333;
+    opacity: 0.9;
+    position: fixed;
+    top:0px;
+}
+
+#logo {
+    color: limegreen;
+    font-size: 2rem;
+    opacity: 0.7;
+    margin-left: 2rem;
+    margin-top: 1.1rem;
+}
+
+#BasliqYazisi {
+    display: inline;
+    letter-spacing: 0.1rem;
+}
+
+#edge {
+    color: limegreen;
+    font-size: 2.2rem;
+    opacity: 0.7;
+    font-weight:lighter;
+}
+
+#ledger {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+nav{    
+    float:right;
+    width:30rem;
+}
+nav ul{
+    float:right;
+    display:flex;
+}
+nav ul li{
+      margin-top:1.5rem;
+      list-style:none;
+      font-size:1.2rem;
+      color:white;
+      padding-right:1.5rem;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    padding:1rem;
+}
+nav ul li a:hover{
+    text-decoration:none;
+    color:white;
+    
+    border-bottom:3px solid green;
+}
+content{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    width:100%;
+    flex-direction:column;
+}
+content h1{
+    color:white;
+    font-size:3rem;
+}
+content p{
+    color:white;
+    font-size:1.5rem;
+}
+.button{
+    color:white;
+    background-color:limegreen;
+    border-radius:5px 5px;
+    text-decoration:none;
+    padding:1rem 2rem;
+    justify-content:center;
+}
+/*----------------ABOUT----------------*/
+.about{
+    background-color:whitesmoke;
+    height:20rem;
+    display:flex;
+    padding:2rem;
+    align-items:center;
+    text-align:center;
+}
+.about div{
+    width:100%;
+    height:10rem;
+}
+.about div i{
+    color:white;
+    background-color:forestgreen;
+    border-radius:10rem;
+    padding:1rem;
+}
+.about div h3{
+    padding:1rem;
+}
+/*----------------SOLUTIONS----------------*/
+.solutions{
+    height:30rem;
+    width:100%;
+    display:flex;
+}
+.solutions img{
+    width:49.8%;
+    display:inline-block;
+    height:100%;
+}
+.solutions div{
+    width:49.8%;
+    height:100%;
+    background-color:forestgreen;
+    padding:2rem;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.solutions h2{
+    font-size:2rem;
+    font-weight:lighter;
+}
+.solutions a{
+    border:2px solid white;
+    border-radius:0.5rem;
+    padding:1rem;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    width:9rem;
+    text-align:center;
+    margin-top:3rem;
+}
+/*---------------Buisness Cases--------------*/
+.buisnesscases {
+    background-color: whitesmoke;
+    height: 20rem;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    padding: 4rem;
+    align-items: center;
+    text-align: center;
+}
+.buisnesscases h2{
+    padding:2rem;
+    font-size:3rem;
+    font-weight:lighter;
+}
+/*----------------Blog Post-----------------*/
+.blogpost1 {
+    width: 100%;
+    height: 33rem;
+    display: flex;
+}
+.blogpost1 div{
+    padding:2rem;
+    background-color:dodgerblue;
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color: white;
+}
+.blogpost1 h2{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    font-size:2rem;
+    font-weight:lighter;
+}
+.blogpost1 div a {
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 9rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.blogpost1 img{
+    width:50%;
+}
+/*---------------TEAM---------------*/
+.team{
+    background-color: whitesmoke;
+    height: 25rem;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    padding: 6rem;
+    align-items: center;
+    text-align: center;
+}
+.team h2{
+    font-size:2.5rem;
+    font-weight:lighter;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.members{
+    display:flex;
+}
+.members div{
+    padding:3rem;
+}
+/*--------------CALLBACK-------------*/
+.callback{
+    height:30rem;
+    width:100%;
+    display:flex;
+}
+.callback img{
+    width:50%;
+}
+.callback div{
+    background-color:whitesmoke;
+    width:50%;
+    height:30rem;
+    display:flex;
+    flex-direction:column;
+    padding:2rem;
+    align-items:center;
+}
+.callback div h2{
+    font-size:2.5rem;
+    text-align:start;
+}
+.callback div form{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:30rem;
+}
+.callback div form input{
+    margin:1rem;
+    padding:0.7rem;
+    border-radius:1em;
+}
+#Sendbtn{
+    font-size: 1em;
+    font-weight: bold;
+}
+/*---------FOOTER------------*/
+footer{
+    height:13rem;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    background-color:rgba(0,0,0,0.8);
+    align-items:center;
+    justify-content:center;
+}
+.sclm a{
+    color:white;
+    padding:1rem;
+}
+.sclm a:hover{
+    color:forestgreen;
+    padding:1rem;
+}
